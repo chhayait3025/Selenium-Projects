@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-24T14:58:34 EST" name="Page Object Model framework" finished-at="2023-01-24T14:59:21 EST" duration-ms="47054">
+    <groups>
+    </groups>
+    <test started-at="2023-01-24T14:58:34 EST" name="Login Test" finished-at="2023-01-24T14:58:39 EST" duration-ms="5559">
+      <class name="com.w2a.testcases.LoginTest">
+        <test-method signature="loginTest(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.LoginTest@77f991c]" started-at="2023-01-24T14:58:34 EST" name="loginTest" data-provider="dp" finished-at="2023-01-24T14:58:39 EST" duration-ms="5478" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Password@#$%6@12345, runmode=Y, username=chhaya.singh0902@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- com.w2a.testcases.LoginTest -->
+    </test> <!-- Login Test -->
+    <test started-at="2023-01-24T14:58:39 EST" name="Create Account Test" finished-at="2023-01-24T14:59:21 EST" duration-ms="41462">
+      <class name="com.w2a.testcases.CreateAccountTest">
+        <test-method signature="createAccountTest(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.CreateAccountTest@16ac5d35]" started-at="2023-01-24T14:58:39 EST" name="createAccountTest" data-provider="dp" finished-at="2023-01-24T14:59:21 EST" duration-ms="41422" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{AccountName=test1, ticketsymbol=jhgg, rating=Acquired, actnumber=7654.0, acttype=analyst, phone=1.23456789E8, runmode=Y, annualrev=20000.0, ownership=Private, industry=Data/Telecom OEM, employee=emptest, sidcode=111.0, actsite=actsitetest}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccountTest -->
+      </class> <!-- com.w2a.testcases.CreateAccountTest -->
+    </test> <!-- Create Account Test -->
+  </suite> <!-- Page Object Model framework -->
+</testng-results>
